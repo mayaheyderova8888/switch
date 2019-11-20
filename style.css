@@ -1,0 +1,773 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+.container{
+    max-width: 1110px;
+    margin: auto;
+}
+header{
+    background-image: url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+}
+header ul{
+    display: flex;
+  }
+    header ul a {
+     font: 1em 'Montserrat', sans-serif;
+    color: #FFF;
+   
+}
+
+header ul .active {
+    font: bold 1em 'Montserrat', sans-serif;
+    color: #FFF;
+   border-top:  solid 5px #53d153 ;
+}
+header ul li {
+    margin-left: 20px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+header img{
+    margin-top: 5px;
+}
+.icon{
+    display: flex;
+    margin-right: 30px;
+   
+}
+   .Search { 
+  
+       height: 25px;
+        width: 160px; 
+        border-radius: 20px 0 0 20px;
+       border: none;
+       padding-left: 10px;
+       font: 300 1em 'Montserrat', sans-serif;
+        color: #111111;
+        outline: none;
+    } 
+    .icon button {
+        height: 25px;
+        border-radius: 0px 20px 20px 0;
+        border: none;
+        background-color: #FFF;
+        cursor: pointer;
+        outline: none;
+    }
+
+header h2{
+    font:  700 3.4375em 'Montserrat', sans-serif;
+color: #FFF;
+text-align: center;
+margin-top: 200px;
+}
+#bir .art button{
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    margin:auto;
+    outline: none;
+
+  margin-top:35px;
+  background-color: #53d153 ;
+  border: none;
+  border-radius: 50px;
+  font: 1.375em 'Montserrat', sans-serif;
+color: #FFF;
+text-align: center; 
+text-transform: uppercase;
+cursor: pointer;
+    outline: none;
+    transition: transform 2s;
+}
+    .art button:hover{
+transform: matrix(1.2, 0, 0, 1.2, 0, 0);
+  /*scaleX,skewY,skewX,scaleY,translateX,translateY*/
+}
+.Scroll{
+display: flex;
+justify-content: center;
+margin-top: 215px;
+margin-bottom: 15px;
+}
+
+.Scroll i{
+    margin-left: 15px; 
+    color: #111111;
+}
+.Scroll button{
+    height: 25px;
+    width: 150px;
+    font: 300 1em'Montserrat', sans-serif;
+    background-color: #FFF;
+    border: none;
+    border-radius: 25px 25px 25px 25px;
+    margin-bottom: 10px;
+    color: #111111;
+text-align: center;
+cursor: pointer;
+outline: none;
+transition: transform 2s;
+}
+.Scroll button{ transition: transform 1s;
+}
+    .Scroll button:hover{
+transform: matrix(1.2, 0, 0, 1.2, 0, 0);}
+
+#iki h3{
+    font:300 1.25em  'Montserrat', sans-serif;
+letter-spacing: 4px;
+color: #828181;
+text-align: center;
+margin-top: 40px;
+}
+#iki hr { 
+    width: 45px;
+    height: 2px;
+    border: none;
+   background-color: #818181;
+}
+#iki .container>p {
+    font:  300 1em 'Open Sans', sans-serif;
+color: #b7b3b3;
+text-align: center;
+margin-top: 15px;
+}
+#lorem{
+    display: flex;
+    justify-content: space-between;
+
+}
+.photo{justify-content: center;
+    background-color: #e0f3e0;
+     border-radius: 20px;
+     width: 150px;
+     height: 140px;
+     margin: auto;
+     margin-top: 70px; 
+}
+#lorem .photo i {text-align: center;
+   font-size: 95px;
+  margin-left: 25px;
+    margin-top: 20px;
+    color: #53d153; 
+}
+
+
+
+#lorem h4{
+    font:bold 1.5em 'Montserrat', sans-serif;
+color: #828181;
+font-weight: bold;
+text-align: center;
+margin-top: 20px;
+}
+#lorem p{
+    width: 250px;
+height: 89px;
+font-size: 300 .9375em 'Montserrat', sans-serif;
+color: #828181;
+text-align: center;
+margin:auto;
+margin-top: 25px;
+}
+#lorem button{
+    width: 125px;
+    height: 30px;
+    background-color: #53d153;
+    font: bold 1em 'Montserrat', sans-serif;
+color: #FFF;
+text-align: center;
+margin-top: 30px;
+margin-bottom: 70px;
+margin: 50px;
+border: none;
+border-radius: 25px;
+cursor:pointer;
+outline: none;
+transition: transform 2s;
+}
+#lorem button:hover{
+transform: matrix(1.2, 0, 0, 1.2, 0, 0);}
+
+#uch{
+    background-color: #54d154
+}
+#uch h3{
+    font:300 1.25em  'Montserrat', sans-serif;
+letter-spacing: 4px;
+color: #207b20;
+text-align: center;
+padding-top: 40px;
+}
+#uch hr{
+    width: 45px;
+    height: 2px;
+    border:none;
+    background-color: #207b20;
+   margin-top: 10px;
+
+}
+#uch p{
+    font:  300 1em 'Open Sans', sans-serif;
+color: #2b9b2b;
+text-align: center;
+margin-top: 15px;
+}
+#uch ul{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    margin-top: 60px;
+    width: 250px;
+}
+#uch ul button{
+    font:1em 'Montserrat', sans-serif;
+    color:#2b9b2b;
+text-align: center;
+height: 30px;
+background-color: #FFF;
+border: solid .5px #2b9b2b;
+outline: none;
+transition: transform 2s;
+}
+#uch ul button:hover{
+    transform: matrix(1.2, 0,0,1.2,0,0);
+}
+#uch ul .active{ 
+    font:1em 'Montserrat', sans-serif;
+    color: #FFF;
+    background-color: #2b9b2b;
+    border-radius: 20px 0 0 20px;
+}
+#uch ul .son{
+    border-radius:0 20px 20px 0;
+}
+#uch .shekil{
+    display: flex;
+ flex-wrap: wrap;
+    margin: auto;
+    margin-top: 55px;
+}
+
+#uch img{
+    width: 160px;
+    height: 160px;
+    margin:30px;
+}
+#uch .work
+{ display: flex;
+    justify-content: center;
+}
+#uch .work button{
+   background-color: #2b9b2b; 
+color: #FFF;
+font:1.125em 'Montserrat', sans-serif;
+text-align: center;
+margin-bottom: 50px;
+width: 190px; 
+height: 40px;
+border: none;
+border-radius: 20px;
+cursor: pointer;
+outline: none;
+transition: transform 2s;
+}
+#uch .work button:hover{  transform: matrix(1.2, 0,0,1.2,0,0);
+
+}
+#uch .work i{
+    margin-left: 5px;
+}
+#dord h3{
+    font:300 1.25em  'Montserrat', sans-serif;
+letter-spacing: 4px;
+color: #828181;
+text-align: center;
+text-transform: uppercase;
+margin-top: 35px;
+}
+#dord hr{width: 45px;
+    height: 2px;
+    border:none;
+    background-color: #818181;
+   margin-top: 10px;}
+   #dord .container>p{
+    font:  300 1em 'Open Sans', sans-serif;
+    color: #b7b3b3;
+    text-align: center;
+    margin-top: 15px;
+   }
+   #dord .ox { 
+       display: flex;
+       justify-content: space-around;
+       margin-top: 70px;
+    }
+    
+    #dord i{color:#dfdfdf;
+        font-size:30px;
+        cursor: pointer;
+
+    }
+   #dord .test>p{
+      width: 540px;
+       font: 1em 'Montserrat', sans-serif;
+    color: #444444;
+    margin: auto;
+    text-align: center;
+   
+}
+#dord .mr{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 65px;
+}
+#dord .mr img
+{
+    border:solid 2px #e7e7e7;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+.ceo h6{
+    font: 1em 'Montserrat', sans-serif;
+color: #444444;
+}
+.ceo p{
+    font: bold 1em 'Montserrat', sans-serif;
+color: #cccccc;
+}
+#besh{
+    background-color:#f2f1f1;
+   
+} 
+#besh h3
+{
+    font:  300 1.25em 'Montserrat', sans-serif;
+letter-spacing: 4px;
+color: #828181;
+text-align: center;
+padding-top: 35px;
+}
+#besh hr{
+    width: 45px;
+    height: 2px;
+    border:none;
+    background-color: #818181;
+   margin-top: 10px;
+
+}
+#besh p{
+    font:  300 1em;
+color: #b7b3b3 'Open Sans', sans-serif;
+    color: #b7b3b3;
+    text-align: center;
+    margin-top: 15px;
+    
+}
+#besh .logo{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 85px;
+}
+
+#besh img{
+    margin:50px;
+}
+#besh .client
+{ display: flex;
+    justify-content: center;
+}
+#besh .client button{
+   background-color: #dddcdc; 
+color:#b7b3b3;;
+font:1.125em 'Montserrat', sans-serif;
+text-align: center;
+margin-bottom: 50px;
+width: 190px; 
+height: 40px;
+border: none;
+border-radius: 20px;
+cursor: pointer;
+outline: none;
+transition: transform 2s;
+}
+#besh .client button:hover{  transform: matrix(1.2, 0,0,1.2,0,0);
+}
+
+
+#besh .client i{
+    margin-left: 10px;
+}
+
+#alti{
+    background-color: #53d153;
+}
+#alti h3{
+    font:  300 1.25em 'Montserrat', sans-serif;
+letter-spacing: 4px;
+color: #207b20;
+text-align: center;
+padding-top:35px; 
+}
+#alti hr{
+width: 45px;
+    height: 2px;
+    border:none;
+    background-color: #1f7b1f;
+   margin-top: 10px;}
+  #alti p{
+   font:  300 1em'Open Sans', sans-serif;
+   color: #2b9b2b; 
+       text-align: center;
+       margin-top: 15px;
+       }
+       .alti1{
+           display: flex;
+           justify-content: space-around;
+           margin-top: 50px;
+       }
+.vl{
+    border-left: 2px solid #1f7b1f;
+    height: 75px;
+    width: 3px;
+    margin-left: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#alti h6{
+    font: 1em 'Montserrat', sans-serif;
+color: #FFF;
+text-align: center;
+}
+
+.ball{
+    width: 90px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #cccccc;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.ball .fas{
+    color:#e94b89; 
+    font-size: 20px;
+    transition: transform 2s;
+}
+.ball .fas:hover{  transform: matrix(1.2, 0,0,1.2,0,0);
+
+}
+
+.ball .fa-behance-square{
+    font-size: 20px;
+   color:#0061ff;
+   transition: transform 2s;
+}
+.ball .fa-behance-square:hover{  transform: matrix(1.2, 0,0,1.2,0,0);
+
+
+}
+.ball .fa-twitter-square {font-size: 20px;
+color:#00abed; 
+transition: transform 2s;
+}
+.ball .fa-twitter-square:hover{  transform: matrix(1.2, 0,0,1.2,0,0);
+
+
+}
+#us {
+    background-color: #3eba3e;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#us button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #53d153;
+    font: 300 1em'Montserrat', sans-serif;
+color: #FFF;
+text-align: center;
+transition: transform 2s;
+}
+#us button:hover{  transform: matrix(1.2, 0,0,1.2,0,0);
+
+}
+#yeddi{
+    background-color: #333;
+}
+    #yeddi_0{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;}
+
+
+#yeddi h4{
+    font: 300 1em 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    color: #DDD;
+    text-align: center; 
+    margin-top: 30px;
+}
+    #yeddi hr{
+        width: 30px;
+        height: 2px;
+        color: #DDD;
+       
+    }
+    #yeddi_1{
+        width: 320px;
+
+    }
+    #yeddi_1 p{
+font: 300 1em 'Montserrat', sans-serif;
+color: #CCC;
+text-align: center;
+margin-top: 30px;
+    }
+    #yeddi_1 .ball{
+        margin: auto;
+margin-top: 25px;
+
+    
+    }
+    #yeddi_2{
+        width: 320px;
+    }
+    #yeddi_2 .recent{
+        display: flex;
+        margin-top: 15px;
+        
+    }
+    #yeddi_2 p{font: 300 1em 'Montserrat', sans-serif;
+        color: #CCC;
+
+    }
+#yeddi_2 img{
+    width: 50px;
+    height: 50px;
+}
+#yeddi_3{width: 320px;  
+}
+#yeddi_3 p{
+    font: 300 .875em 'Montserrat', sans-serif;;
+    color: #CCC;
+    text-align: center;
+} 
+
+
+
+.recent button{
+    border: none;
+    border-radius: 2px;
+    font:300 .75em  'Montserrat', sans-serif;
+color: #FFF;
+text-align: center;
+margin-top: 5px;
+margin-left: 5px;
+outline: none;
+transition: transform 2s;
+}
+.recent button:hover{
+    transform: matrix(1.2,0,0,1.2,0,0,);
+}
+    #yeddi form{
+        margin-top: 25px;
+    }
+#yeddi input{
+    width: 320px;
+    height: 35px;
+    background-color: #444;
+    border:#333 solid 1px;
+    border-radius: 4px;
+}
+ #yeddi_3 ::placeholder{
+    font: 1.25em 'Montserrat', sans-serif;
+    color: #777;
+    padding-left: 15px;
+}
+#yeddi textarea{
+     width: 320px;
+    height: 135px;
+    background-color: #444;
+    border:#333 solid 1px ;
+    border-radius: 4px;
+    font: 1em 'Montserrat', sans-serif;
+    color: #777;
+    padding-left: 15px;
+}
+    #yeddi_3 button{ 
+        width: 320px;
+        height: 35px;
+        background-color: #2b9b2b;
+        border-radius: 4px;
+        border: none;
+        margin-bottom: 25px;
+        cursor: pointer;
+       outline: none;
+color: #FFF;
+font: .75em'Montserrat', sans-serif;
+   }
+
+.recent_1 button{background-color: #53d153;
+cursor: pointer;
+transition: transform 2s; 
+}
+.recent_1 button:hover{
+    transform: matrix(1.2,0,0,1.2,0,0)
+}
+.recent_2 button{background-color: #ffba00;
+    cursor: pointer;
+    transition: transform 2s; 
+}
+.recent_2 button:hover{
+    transform: matrix(1.2,0,0,1.2,0,0)
+}
+.recent_3 button{background-color: #30bae7;
+    cursor: pointer;
+    transition: transform 2s; 
+}
+.recent_3 button:hover{
+    transform: matrix(1.2,0,0,1.2,0,0)
+}
+.recent_4 button{background-color: #f34c03;
+    cursor: pointer;
+    transition: transform 2s; 
+}
+.recent_4 button:hover{
+    transform: matrix(1.2,0,0,1.2,0,0)
+
+}
+.recent_5 button{background-color: #ffba00;
+    cursor: pointer;
+    transition: transform 2s; 
+}
+.recent_5 button:hover{
+    transform: matrix(1.2,0,0,1.2,0,0)
+}
+
+#sekkiz{
+    background-color: #212121;
+}
+#sekkiz h3{
+    font-size: 300 1em 'Montserrat', sans-serif;
+letter-spacing: 3px;
+color: #101010;
+text-align: center;
+padding-top: 25px;
+}
+#sekkiz hr{width: 45px;
+    height: 2px;
+    border:none;
+    background-color: #0f0f0f;
+   margin-top: 10px;}
+
+.cnn{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cnn img {
+    margin: 50px;
+}
+@media only screen and (max-width: 992px){
+ 
+  
+  header nav { justify-content: center;
+    flex-direction: column;
+   margin: auto;
+  }
+  nav ul{
+      margin: auto;
+  }
+  header img{
+  
+      margin: auto;
+       margin-top: 30px;    
+  }
+  header .icon{
+      margin: auto;
+  }
+nav form{
+    margin: auto;
+    margin-top: 30px;
+}
+
+    #lorem,
+    #bir,
+    #iki,
+    #uch,
+    #dord,
+    #besh,
+    #alti,
+    #yeddi,
+    #sekkiz
+
+    {
+        flex-wrap: wrap;
+    }
+
+    #lorem{justify-content: center;
+    }
+  
+  
+  #lorem button{width: 200px;
+    height: 50px;
+
+  }
+  #uch img{
+      justify-content: center;
+      width: 80%;
+height: auto;
+   
+  }
+  #dord .test>p{
+    width: 400px;
+
+  }
+  #dord .mr{
+      justify-content: center;
+
+  }
+#besh img{ width: 200px;
+    height: auto;
+
+}
+#alti .alti1 { 
+    flex-direction: column;
+    align-items: center;
+
+}
+#alti .krisna>img{
+    width: 300px;
+    height: 300px;
+}
+.krisna .vl{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#alti .ball{ 
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
+}
+#sekkiz img{
+     width: 20%;
+}
+}
