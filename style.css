@@ -610,6 +610,7 @@ transition: transform 2s;
     font: 1em 'Montserrat', sans-serif;
     color: #777;
     padding-left: 15px;
+    resize:none;
 }
     #yeddi_3 button{ 
         width: 320px;
